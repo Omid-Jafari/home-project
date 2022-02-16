@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className={styles.wrapper}>
       <img className='img-fluid' src='/lambo.png' alt='lambo' />
-      <input type='text' />
+      <input type='text' placeholder='FIND YOUR CAR (YEAR MAKE MODEL)'/>
     </div>
   )
 }
