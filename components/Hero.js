@@ -5,6 +5,7 @@ const Hero = () => {
   return (
     <div className={styles.wrapper}>
       <img className='img-fluid' src='/lambo.png' alt='lambo' />
+      <input type='text' />
     </div>
   )
 }

@@ -1,7 +1,7 @@
 import styles from '../styles/Nav.module.scss'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from 'next/image';
-import { FaTelegramPlane } from 'react-icons/fa'
+import { FaStaylinked, FaTelegramPlane } from 'react-icons/fa'
 import { AiOutlineTwitter } from 'react-icons/ai'
 import { MdLocationOn } from 'react-icons/md'
 import { BsFillTelephoneFill } from 'react-icons/bs'
@@ -39,12 +39,12 @@ const Nav = () => {
         <div className={styles.navigate}>
          <div className='container'>
          <div className="row">
-            <div className="col text-center pt-1 border-right border-white">items</div>
-            <div className="col text-center pt-1 border-right border-white">items&nbsp;<IoMdArrowDropdown /></div>
-            <div className="col text-center pt-1 border-right border-white">items&nbsp;<IoMdArrowDropdown /></div>
-            <div className="col text-center pt-1 border-right border-white">items&nbsp;<IoMdArrowDropdown /></div>
-            <div className="col text-center pt-1 border-right border-white">items&nbsp;<IoMdArrowDropdown /></div>
-            <div className="col text-center pt-1 border-right border-white">items</div>
+            <div className="col text-center pt-1 border-end border-white g-1">items</div>
+            <div className="col text-center pt-1 border-end border-white g-1">items&nbsp;<IoMdArrowDropdown /></div>
+            <div className="col text-center pt-1 border-end border-white g-1">items&nbsp;<IoMdArrowDropdown /></div>
+            <div className="col text-center pt-1 border-end border-white g-1">items&nbsp;<IoMdArrowDropdown /></div>
+            <div className="col text-center pt-1 border-end border-white g-1">items&nbsp;<IoMdArrowDropdown /></div>
+            <div className="col text-center pt-1">items</div>
           </div>
          </div>
         </div>
