@@ -5,6 +5,8 @@ import { BiSearch } from 'react-icons/bi'
 import { IoMdArrowDropdown } from 'react-icons/io'
 import { BsFillCalculatorFill } from 'react-icons/bs'
 import { MdLocationOn } from 'react-icons/md'
+import { BsFillChatRightTextFill } from 'react-icons/bs'
+import { BsCurrencyDollar } from 'react-icons/bs'
 
 
 
@@ -25,8 +27,8 @@ const Body1 = () => {
                     <div className={`${styles.info} d-flex flex-wrap`}>
                         <div className='m-2 p-2'><b><BsFillCalculatorFill />&nbsp;&nbsp;PAYMENT CALCULATOR</b></div>
                         <div className='m-2 p-2'><b><MdLocationOn size={23}/>&nbsp;&nbsp;GET DIRECTIONS</b></div>
-                        <div className='m-2 p-2'><b>column</b></div>
-                        <div className='m-2 p-2'><b>column</b></div>
+                        <div className='m-2 p-2'><b><BsFillChatRightTextFill />&nbsp;&nbsp;TEXT US NOW</b></div>
+                        <div className='m-2 p-2'><b><BsCurrencyDollar size={23}/>&nbsp;&nbsp;APPLY FOR FINANCING</b></div>
                     </div>
                     <div className={`${styles.hours}`}>
                         <p className='text-nowrap py-2' style={{fontSize:14}}>Tommorows Hours: &nbsp; &nbsp;Sales:10:00AM-7:00PM &nbsp; &nbsp;Service and Parts: 11:00AM-5:00PM</p>
