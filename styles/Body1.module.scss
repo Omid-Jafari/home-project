@@ -17,12 +17,27 @@
 
 }
 
-.button {
-    width:104px;
-    height: 21px;
-    color:#FFBB00;
-    border: 1px solid #FFBB00;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.info{
+
+    div {
+        width: 270px;
+        height: 42px;
+        background-color: #FFBB00;
+    }
+} 
+
+.hours {
+    color: white;
+
+    .viewButton {
+        width: 198px;
+        height: 42px;
+        color:#FFBB00;
+        border: 1px solid #FFBB00;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:0 auto;
+    }
 }
