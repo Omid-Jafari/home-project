@@ -44,7 +44,7 @@ const Nav = () => {
             <div className="col text-center pt-1 border-end border-white g-1">items&nbsp;<IoMdArrowDropdown /></div>
             <div className="col text-center pt-1 border-end border-white g-1">items&nbsp;<IoMdArrowDropdown /></div>
             <div className="col text-center pt-1 border-end border-white g-1">items&nbsp;<IoMdArrowDropdown /></div>
-            <div className="col text-center pt-1">items</div>
+            <div className="col text-center pt-1 g-1">items</div>
           </div>
          </div>
         </div>
