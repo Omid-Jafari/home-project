@@ -116,7 +116,9 @@ const ShowRome = () => {
         </div>
       </div>
 
-    </div>
+      <div className={`${styles.Button}`}>VIEW ALL</div>
+
+    </div> 
   )
 }
 
