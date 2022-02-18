@@ -1,4 +1,5 @@
 import Body1 from "../components/Body1";
+import FeaturedSpecial from "../components/FeaturedSpecial";
 import Hero from "../components/Hero";
 import Nav from "../components/Nav";
 import ShowRome from "../components/ShowRome";
@@ -12,6 +13,7 @@ export default function Home() {
       <Body1 />
       <ShowRome />
       <Welcome />
+      <FeaturedSpecial />
     </>
   )
 }
