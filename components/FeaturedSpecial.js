@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const featuredSpecial = () => {
   return (
-    <div className={`${styles.wrapper} text-center border`}>
+    <div className={`${styles.wrapper} text-center`}>
         <h1>Featured Specials</h1>
         <p>New And Popular Items At Competitive Prices</p>
         <div className='d-flex justify-content-between align-items-center flex-row text-white'>

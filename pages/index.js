@@ -1,5 +1,6 @@
 import Body1 from "../components/Body1";
 import FeaturedSpecial from "../components/FeaturedSpecial";
+import GoogleReviews from "../components/GoogleReviews";
 import Hero from "../components/Hero";
 import Nav from "../components/Nav";
 import ShowRome from "../components/ShowRome";
@@ -14,6 +15,7 @@ export default function Home() {
       <ShowRome />
       <Welcome />
       <FeaturedSpecial />
+      <GoogleReviews />
     </>
   )
 }
