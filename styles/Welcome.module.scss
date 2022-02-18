@@ -1,0 +1,41 @@
+.wrapper {
+    position: absolute;
+    top: 1700px;
+    width: 100%;
+    height: 631px;
+
+    img {
+        width: 100%;
+        height: 624px;
+        z-index: -1;
+    }
+
+    & > div {
+        z-index: 5;
+        position: absolute;
+        width: 857px;
+        height: 541.42px;
+        top: 42px;
+        left: 51px;
+        color: white;
+        background-color: #595959;
+
+        & > div {            
+            position: absolute;
+            padding: 40px;
+            top: 50%;
+            transform: translateY(-50%);
+
+            & > div {
+                width: 198px;
+                height: 42px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #FFBB00;
+                border: 1px solid #FFBB00;
+            }
+
+        }
+    }
+}
