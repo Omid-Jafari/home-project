@@ -1,5 +1,6 @@
 import Body1 from "../components/Body1";
 import FeaturedSpecial from "../components/FeaturedSpecial";
+import Footer from "../components/Footer";
 import GoogleReviews from "../components/GoogleReviews";
 import Hero from "../components/Hero";
 import Nav from "../components/Nav";
@@ -16,6 +17,7 @@ export default function Home() {
       <Welcome />
       <FeaturedSpecial />
       <GoogleReviews />
+      <Footer />
     </>
   )
 }
