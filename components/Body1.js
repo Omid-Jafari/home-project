@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../styles/Body1.module.scss'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Select from 'react-select'
 import { BiSearch } from 'react-icons/bi'
 import { IoMdArrowDropdown } from 'react-icons/io'
 import { BsFillCalculatorFill } from 'react-icons/bs'
@@ -8,6 +9,34 @@ import { MdLocationOn } from 'react-icons/md'
 import { BsFillChatRightTextFill } from 'react-icons/bs'
 import { BsCurrencyDollar } from 'react-icons/bs'
 
+const options = [
+    { value: 'Banana' , label: 'Banana'},
+    { value: 'Mouz' , label: 'Mouz'},
+    { value: 'Almouz' , label: 'Almouz'},
+]
+
+const customStyles = {
+    option: ( provided) => ({
+        ...provided,
+        borderBottom: '1px dotted pink',
+        color: 'black',
+    
+    }),
+    control: () => ({
+        width: 200,
+        height: 30,
+        color: 'black',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+    }),
+    singleValue: (provided, state) => {
+      const opacity = state.isDisabled ? 0.5 : 1;
+      const transition = 'opacity 300ms';
+  
+      return { ...provided, opacity, transition };
+    }
+}
 
 
 const Body1 = () => {
@@ -15,10 +44,10 @@ const Body1 = () => {
         <div className={styles.wrapper}>
             <div className='container align-items-center '>
                 <div className="d-flex flex-row justify-content-between bg-white mt-5 align-items-center ms-2">
-                    <div className="p-2 ps-4">items&nbsp;<IoMdArrowDropdown /></div>
-                    <div className="p-2 ps-4 border-start border-1 border-secondary">items&nbsp;<IoMdArrowDropdown /></div>
-                    <div className="p-2 ps-4 border-start border-1 border-secondary">items&nbsp;<IoMdArrowDropdown /></div>
-                    <div className="p-2 ps-4 border-start border-1 border-secondary">items&nbsp;<IoMdArrowDropdown /></div>
+                    <div className="p-2 ps-4"><Select options={options} styles={customStyles} /></div>
+                    <div className="p-2 ps-4 border-start border-1 border-secondary"><Select options={options} styles={customStyles} /></div>
+                    <div className="p-2 ps-4 border-start border-1 border-secondary"><Select options={options} styles={customStyles} /></div>
+                    <div className="p-2 ps-4 border-start border-1 border-secondary"><Select options={options} styles={customStyles} /></div>
                     <div className={styles.search}><BiSearch size={55} /></div>
                 </div>
             </div>

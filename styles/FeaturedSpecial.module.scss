@@ -5,31 +5,30 @@
     transform: translateX(-50%);
     width: 1264px;
     height: 570px;
+    overflow: visible;
+}
+
+.Slides {
+    width: 295px;
+    height: 334px;
+    border: 1px solid black;
+    margin: 0 8px;
+
+    img {
+        width: 267px;
+        height: 218px;
+    }        
 
     & > div {
-        & > div {
-            width: 295px;
-            height: 334px;
-            border: 1px solid black;
-
-            img {
-                width: 267px;
-                height: 218px;
-            }
-
-            & > div {
-                width: 245px;
-                height: 143px;
-                background-color: black;
-                border-radius: 10px;
-                position: relative;
-                bottom: 44px;
-                margin: 0 auto;
-
-            }
-        }
+        width: 245px;
+        height: 143px;
+        background-color: black;
+        border-radius: 10px;
+        position: relative;
+        bottom: 44px;
+        margin: 0 auto;
+        
     }
-    
 }
 
 .Button {
